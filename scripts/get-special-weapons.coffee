@@ -1,7 +1,7 @@
 #Description:
 #   "バハ武器"と入力すると、バハムート武器の必要素材数が書いてある攻略ページを取得するbot.
 module.exports = (robot) ->
-  robot.respond /バハ武器/i.test("バハ武器"), (res) ->
+  robot.respond /バハ武器/i, (res) ->
     res.send "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/48325"
 
   #Description:
