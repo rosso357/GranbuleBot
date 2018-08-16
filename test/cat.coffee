@@ -16,7 +16,7 @@ describe 'cat', ->
 
     it 'should reply to user', ->
       expect(this.room.messages).to.eql [
-        ['uncle','@hubot �~A��~A~S�~A��~B~C�~B~S'],
+        ['uncle','@hubot ねこちゃん'],
         ['hubot','http://livedoor.blogimg.jp/miniminigob/imgs/d/c/dc889573.jpg'],
       ]
 
