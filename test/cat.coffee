@@ -12,7 +12,7 @@ describe 'cat', ->
 
   context 'user says cats to hubot', ->
     beforeEach ->
-      this.room.user.say 'uncle', '@hubot �~A��~A~S�~A��~B~C�~B~S'
+      this.room.user.say 'uncle', '@hubot ねこちゃん'
 
     it 'should reply to user', ->
       expect(this.room.messages).to.eql [
