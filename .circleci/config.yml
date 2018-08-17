@@ -20,11 +20,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: npm install
-          command: npm install
-      - run:
-          name: npm test
-          command: npm test
+          name: npm install & test
+          command: npm install && nmp test
 workflows:
   version: 2
   test_and_deploy:
