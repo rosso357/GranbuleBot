@@ -22,9 +22,11 @@ jobs:
       - run:
           name: npm test
           command: npm test
-
 workflows:
   version: 2
+  test:
+    jobs:
+      - test
   deploy:
     jobs:
       - test:
@@ -33,6 +35,3 @@ workflows:
                 filters:
                   branches:
                     only: master
-  test:
-    jobs:
-      - test
