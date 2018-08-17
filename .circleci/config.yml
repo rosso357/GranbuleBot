@@ -21,7 +21,7 @@ jobs:
       - checkout
       - run:
           name: npm install & test
-          command: npm install && nmp test
+          command: npm install && npm test
 workflows:
   version: 2
   test_and_deploy:
