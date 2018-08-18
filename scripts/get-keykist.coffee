@@ -1,12 +1,24 @@
 #Description:
 #   "ヘルプ, キーリスト, keylist, コマンド"のいずれかを入力すると、granblue-botのコマンド一覧を取得する.
+
 module.exports = (robot) ->
   robot.respond /(ヘルプ|キーリスト|keylist|コマンド)$/i, (res) ->
-    res.send "var keylist = {公式:\"granblue-bot 公式-グラブル公式 \"};
-    console.log(keylist.[res])"
+    res.send
+    arr = ["granblue-bot 公式 - グラブル公式"
+           "granblue-bot 火理想 - 火マグナ理想編成"]
+
+    for value in arr then log(value)
 
 
 
+
+    #"var keylist = {公式:\"granblue-bot 公式-グラブル公式 \"};
+    #console.log(keylist.[res])"
+
+
+
+
+#robot.respond /天司武器([\s ]?)素材([\s ]?)(ミカ|剣|ミカ剣)?$/i, (res) ->
 
 #    res.send "granblue-botのコマンド一覧\n
 #                 コマンド         　             説明\n
