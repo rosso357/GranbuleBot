@@ -18,7 +18,6 @@ module.exports = (robot) ->
 
 #Description:
 #   "グラブル基本攻略情報関係の、granblue-botのコマンド一覧を取得する.
-module.exports = (robot) ->
   robot.respond /(ヘルプ|キーリスト|keylist|コマンド)([\s ]?)(基本|攻略)?$/i, (res) ->
 
     help_arr =
@@ -79,7 +78,6 @@ module.exports = (robot) ->
 
 #Description:
 #   "十天衆情報関係の、granblue-botのコマンド一覧を取得する.
-module.exports = (robot) ->
   robot.respond /(ヘルプ|キーリスト|keylist|コマンド)([\s ]?)(10|十|10天|十天|10天衆|十天衆)?$/i, (res) ->
 
     help_arr =
