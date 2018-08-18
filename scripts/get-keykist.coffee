@@ -4,15 +4,20 @@
 module.exports = (robot) ->
   robot.respond /(ヘルプ|キーリスト|keylist|コマンド)$/i, (res) ->
 
-    array =
-      "questbeat":
-        "granblue-bot 公式": "グラブル公式"
-        "granblue-bot 猫ちゃん " : "センちゃん画像"
+    help_arr =
+      "公式": "グラブル公式"
+      "猫ちゃん" : "センちゃん画像"
+      "スキル餌武器" : "武器スキル上げ表"
+      "火理想" : "火マグナ理想編成"
+      "バハ武器" : "バハムート武器の素材情報"
 
-    for key in array
+    msg = ''
+
+    for key,value of help_arr
       console.log(key + "-" + array[key] + "\n")
+      msg += key + ' : ' + value + '\n'
 
-    res.send
+    res.send msg
 
 #    res.send "granblue-botのコマンド一覧\n
 #                 コマンド         　             説明\n
