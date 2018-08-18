@@ -14,7 +14,6 @@ module.exports = (robot) ->
     msg = ''
 
     for key,value of help_arr
-      console.log(key + "-" + array[key] + "\n")
       msg += key + ' : ' + value + '\n'
 
     res.send msg
