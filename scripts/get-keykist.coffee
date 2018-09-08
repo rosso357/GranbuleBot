@@ -2,7 +2,7 @@
 #   "グラブルのヘルプ機能関連の、granblue-botのコマンド一覧を取得する.
 module.exports = (robot) ->
 
-  robot.respond /(ヘルプ|キーリスト|keylist|コマンド)([\s ]?)(一覧|理想|武器|十天衆)?$/i, (res) ->
+  robot.respond /(ヘルプ|キーリスト|keylist|コマンド)([\s ]?)(一覧|編成|特殊武器|十天衆|理想装備)?$/i, (res) ->
 
     help_arr =
     "一覧" :
@@ -36,8 +36,8 @@ module.exports = (robot) ->
 
     msg = ''
 
-    for key2,value2 of help_arr
-      msg += key2 + ' : ' + value2 + '\n'
+    for key,value of help_arr
+      msg += key + ' : ' + help_arr[key].value + '\n'
 
     res.send msg
 
