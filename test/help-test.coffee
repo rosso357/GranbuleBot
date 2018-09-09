@@ -10,7 +10,7 @@ describe 'get-keylist', ->
   afterEach ->
     this.room.destroy()
 
-  context 'user says  to help', ->
+  context 'user says to help to hubot', ->
     beforeEach ->
       this.room.user.say 'uncle', '@hubot ヘルプ'
 
@@ -52,6 +52,6 @@ describe 'get-keylist', ->
     it 'should reply to user', ->
       expect(this.room.messages).to.eql [
         ['uncle','@hubot　ヘルプ'],
-        ['hubot',msg],
+        ['hubot', msg],
       ]
 
