@@ -4,7 +4,7 @@ module.exports = (robot) ->
 
   robot.respond /(ヘルプ|キーリスト|keylist|コマンド)$/i, (res) ->
 
-    help_arr =
+    help_map =
       ##基本
       "公式" : "グラブル公式"
       "イベント" : "グラブルイベント攻略情報"
@@ -36,7 +36,7 @@ module.exports = (robot) ->
 
     msg = ''
 
-    for key,value of help_arr
+    for key,value of help_map
       msg += key + ' : ' + value + '\n'
 
     res.send msg
