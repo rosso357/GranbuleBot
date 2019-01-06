@@ -1,5 +1,5 @@
 #Description:
-#   "グラブルのヘルプ機能関連の、granblue-botのコマンド一覧を取得する.
+# グラブルのヘルプ機能関連の、granblue-botのコマンド一覧を取得する.
 module.exports = (robot) ->
 
   robot.respond /(ヘルプ|キーリスト|keylist|コマンド)$/i, (res) ->
