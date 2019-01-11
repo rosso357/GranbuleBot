@@ -23,18 +23,18 @@ describe 'event', ->
     it 'should reply to user', ->
       expect(this.room.messages).to.eql [
         ['uncle','@hubot 火理想'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47075'],
         ['uncle','@hubot 水理想'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47186'],
         ['uncle','@hubot 土理想'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47428'],
         ['uncle','@hubot 風理想'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47217'],
         ['uncle','@hubot 光理想'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47571'],
         ['uncle','@hubot 闇理想'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47695'],
         ['uncle','@hubot ヴァルナ'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47075'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47186'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47428'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47217'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47571'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/47695'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/21615'],
       ]
 
