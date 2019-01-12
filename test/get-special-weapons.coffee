@@ -50,15 +50,9 @@ describe 'event', ->
         ['uncle','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/48325'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/33251'],
         ['uncle','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/52819'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56677
-https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56678
-https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56679
-https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56676'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56677\nhttps://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56678\nhttps://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56679\nhttps://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56676'],
         ['uncle','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/52819'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56677
-https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56678
-https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56679
-https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56676'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56677\nhttps://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56678\nhttps://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56679\nhttps://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56676'],
         ['uncle','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56677'],
         ['uncle','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56678'],
         ['uncle','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56679'],
