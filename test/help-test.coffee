@@ -39,6 +39,8 @@ describe 'get-keylist', ->
 十天衆 素材 : 十天衆開放までの素材数情報
 十天衆 評価 : 各十天衆の評価情報
 十天衆 最終開放 : 十天衆の最終上限開放までの素材
+class iv 取得手順" : "class IVの取得手順
+英雄武器 素材" : "英雄武器の素材
 
 """
       expect(this.room.messages).to.eql [
