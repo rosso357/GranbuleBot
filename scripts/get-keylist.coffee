@@ -35,7 +35,6 @@ module.exports = (robot) ->
       "十天衆 最終開放" : "十天衆の最終上限開放までの素材"
       ##class IV
       "class iv 取得手順" : "class IVの取得手順"
-      "英雄武器 素材" : "英雄武器の素材"
 
     msg = ''
 

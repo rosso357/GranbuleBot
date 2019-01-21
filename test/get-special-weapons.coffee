@@ -40,8 +40,6 @@ describe 'event', ->
         ['uncle','@hubot 天司武器 素材 杖'],
         ['uncle','@hubot 天司武器 素材 ウリ拳'],
         ['uncle','@hubot 天司武器 素材 ラファ'],
-        ['uncle','@hubot 英雄武器 素材'],
-        ['uncle','@hubot 英雄武器 性能'],
         ['uncle','@hubot オメガ武器'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/48325'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/48325'],
