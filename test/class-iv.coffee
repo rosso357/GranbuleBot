@@ -16,7 +16,7 @@ describe 'event', ->
       this.room.user.say 'uncle', '@hubot class iv'
       this.room.user.say 'uncle', '@hubot class 取得 取得'
       this.room.user.say 'uncle', '@hubot 英雄武器 素材'
-      this.room.user.say 'uncle', '@hubot 英雄武器'
+      this.room.user.say 'uncle', '@hubot 英雄武器 性能'
 
     it 'should reply to user', ->
       expect(this.room.messages).to.eql [
@@ -28,7 +28,7 @@ describe 'event', ->
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/102763'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/102763'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/102763'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/38000'],
+        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/25465'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/38000'],
       ]
 
