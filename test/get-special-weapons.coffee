@@ -24,8 +24,6 @@ describe 'event', ->
       this.room.user.say 'uncle', '@hubot 天司武器 素材 杖'
       this.room.user.say 'uncle', '@hubot 天司武器 素材 ウリ拳'
       this.room.user.say 'uncle', '@hubot 天司武器 素材 ラファ'
-      this.room.user.say 'uncle', '@hubot 英雄武器 素材'
-      this.room.user.say 'uncle', '@hubot 英雄武器 性能'
       this.room.user.say 'uncle', '@hubot オメガ武器'
 
     it 'should reply to user', ->
@@ -42,8 +40,6 @@ describe 'event', ->
         ['uncle','@hubot 天司武器 素材 杖'],
         ['uncle','@hubot 天司武器 素材 ウリ拳'],
         ['uncle','@hubot 天司武器 素材 ラファ'],
-        ['uncle','@hubot 英雄武器 素材'],
-        ['uncle','@hubot 英雄武器 性能'],
         ['uncle','@hubot オメガ武器'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/48325'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/48325'],
@@ -57,8 +53,6 @@ describe 'event', ->
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56678'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56679'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/56676'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/25465'],
-        ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/38000'],
         ['hubot','https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/62344'],
       ]
 
